@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.heading{
+    font: 20px Arial, sans-serif;
+    color: #FFFFFF;
+}
