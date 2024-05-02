@@ -1,9 +1,23 @@
 .container{
     display: flex;
-    gap: 20px;
+    gap: 0.25rem;
+    margin-top: 2rem;
+    width: 90%;
+    align-items: center;
 }
 
 .heading{
-    font: 20px Arial, sans-serif;
+    font: 1.5rem Poppins, sans-serif;
     color: #FFFFFF;
+}
+
+.box{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1/4; */
+    padding: 0.5rem;
+    height: auto;
+    border: 0.5px solid white;
 }

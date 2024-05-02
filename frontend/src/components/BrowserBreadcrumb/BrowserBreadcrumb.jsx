@@ -4,8 +4,8 @@ import './styles.css'
 export default function BrowserBreadcrumb() {
   return (
     <>
-        <div className="heading1">/ Multiplayer / Server Browser /</div>
-        <div className="heading2">Server Info</div>
+        <div className="heading1">MULTIPLAYER / SERVER BROWSER /</div>
+        <div className="heading2">SERVER INFO</div>
     </>
   )
 }

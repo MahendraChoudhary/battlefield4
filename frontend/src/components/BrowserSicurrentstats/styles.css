@@ -1,0 +1,22 @@
+.heading{
+    font: 1rem Poppins, sans-serif;
+    color: #FFFFFF;
+}
+
+.parent{
+    display: flex;
+    /* gap: 0.25rem; */
+    margin-top: 1rem;
+    width: 50%;
+    align-items: center;
+}
+
+.bx{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0.5rem;
+    height: auto;
+}
