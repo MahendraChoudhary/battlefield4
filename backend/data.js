@@ -1,16 +1,16 @@
 const data = {
     "playersn": 60,
-    "playerss": 64,
+    "playersd": 64,
     "ping": 47,
     "tickrate": 60,
-    settings: {
+    "settings": {
         "region": "Europe",
         "punkbuster": "on",
         "fairfight": "on",
         "password": "off",
         "preset": "normal"
     },
-    advanced: {
+    "advanced": {
         "minimap": "on",
         "onlysquadleaderspawn": "off",
         "vehicles": "on",
@@ -24,7 +24,7 @@ const data = {
         "spotting": "on",
         "enemynametags": "on"
     },
-    rules: {
+    "rules": {
         "tickets": 400,
         "vehiclespawndelay": 25,
         "bulletdamage": 5,
