@@ -12,7 +12,7 @@ export default function BrowserSicurrentstats(serverdata) {
         </div>
         <div className="bx">
           <span>PING</span>
-          <span>{ping}</span>
+          <span>{ping}ms</span>
         </div>
         <div className="bx">
           <span>TICKRATE</span>

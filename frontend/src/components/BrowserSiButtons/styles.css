@@ -8,10 +8,10 @@
 
 .heading{
     font: 1.5rem Poppins, sans-serif;
-    color: #FFFFFF;
 }
 
 .box{
+    color: #FFFFFF;
     flex-basis: 25%;
     display: flex;
     align-items: center;
@@ -20,4 +20,16 @@
     padding: 0.5rem;
     height: auto;
     border: 0.5px solid white;
+}
+
+.box11{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1/4; */
+    padding: 0.5rem;
+    height: auto;
+    background-color: #FFFFFF;
+    color: black
 }
