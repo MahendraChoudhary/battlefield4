@@ -1,15 +1,17 @@
-.heading{
+.heading4{
     font: 1rem Poppins, sans-serif;
     color: #FFFFFF;
 }
 
 .parent1{
     display: flex;
-    /* gap: 0.25rem; */
+    gap: 1rem;
     /* align-items: flex-start; */
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     width: 80%;
-    align-items: center;
+    justify-items:baseline;
+    /* align-items: center; */
+    box-sizing: border-box;
 }
 
 .bx1{
@@ -19,8 +21,8 @@
     flex-direction: column;
     flex-basis: 33%;
     padding: 0.5rem;
-    /* height: auto; */
-    /* padding: 10px; */
+    height: auto;
+    /* margin-top: 1rem; */
 }
 
 .bx2{

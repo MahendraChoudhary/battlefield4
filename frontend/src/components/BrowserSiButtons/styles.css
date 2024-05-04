@@ -1,13 +1,13 @@
 .container{
     display: flex;
     gap: 0.25rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 90%;
     align-items: center;
 }
 
-.heading{
-    font: 1.5rem Poppins, sans-serif;
+.heading3{
+    font: 1rem Poppins, sans-serif;
 }
 
 .box{
@@ -18,7 +18,7 @@
     justify-content: center;
     /* width: 1/4; */
     padding: 0.5rem;
-    height: auto;
+    /* height: auto; */
     border: 0.5px solid white;
 }
 

@@ -9,7 +9,7 @@ export default function BrowserSiButtons() {
     setHoverText(text);
   }
 
-  const handleMouseOut = (event, t) => {
+  const handleMouseOut = (event) => {
     const text = event.target.innerText;
     setHoverText("abcd");
   }
@@ -19,7 +19,7 @@ export default function BrowserSiButtons() {
   return (
     <div className='container'>
         {divs.map((text) => (
-          <div key={text} onMouseEnter = {(e) => handleMouseOver(e)} onMouseLeave = {(e) => handleMouseOut(e)} className={`heading ${text === hoverText ? "box11" : "box"}`}>{text}</div>
+          <div key={text} onMouseEnter = {(e) => handleMouseOver(e)} onMouseLeave = {(e) => handleMouseOut(e)} className={`heading3 ${text === hoverText ? "box11" : "box"}`}>{text}</div>
         ))}
     </div>
   )

@@ -4,11 +4,12 @@
 }
 
 .si-info{
-    font: 1rem Arial, sans-serif;
+    font: 1rem Poppins, sans-serif;
     color: #FFFFFF;
 }
 
 .server{
-    font: 1rem Arial, sans-serif;
+    font: 1rem Poppins, sans-serif;
     color: #FFFFFF;
+    text-wrap: wrap;
 }
